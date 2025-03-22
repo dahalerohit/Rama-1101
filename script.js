@@ -7,39 +7,21 @@ let arr = [
 ];
 
 function PrintDeveloperbyMap() {
-  arr.map(emp => {
-    if(emp.profession === "developer"){
-      console.log(emp);
-  });
+  //Write your code here , just console.log
 }
 
 function PrintDeveloperbyForEach() {
-  arr.forEach(emp => {
-        if(emp.profession === "developer") {
-            console.log(emp);
-        }
-    });
-   
+  //Write your code here , just console.log
 }
 
 function addData() {
-  let newEmployee = { id: 4, name: "susan", age: "20", profession: "intern" };
-    arr.push(newEmployee);
-    console.log(arr);
+  //Write your code here, just console.log
 }
 
 function removeAdmin() {
-  arr = arr.filter(emp => emp.profession !== "admin");
-    console.log(arr);
+  //Write your code here, just console.log
 }
 
 function concatenateArray() {
- let newEmployees = [
-        { id: 5, name: "alice", age: "22", profession: "designer" },
-        { id: 6, name: "bob", age: "25", profession: "manager" },
-        { id: 7, name: "charlie", age: "21", profession: "developer" }
-    ];
-    
-    let combinedArray = arr.concat(newEmployees);
-    console.log(combinedArray);
+  //Write your code here, just console.log
 }
